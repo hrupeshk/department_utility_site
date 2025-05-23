@@ -25,12 +25,16 @@ export default function FacultyPage() {
           <h2 className="section-title">Head of Department</h2>
           <div className="hod-card">
             <img src={avatar} alt="HOD" className="hod-image" />
-            <div className="hod-info">
-              <h3 className="hod-name">SkinnySky</h3>
-              <p className="designation">Designation</p>
-              <div className="icons">
-                <img src={Linkedin} alt="LinkedIn" />
-                <img src={Email} alt="Email" />
+            <div className="hod-info "> 
+              <div className='profile-details'>
+                <div>
+                  <h3 className="hod-name">SkinnySky</h3>
+                  <p className="designation">Designation</p>
+                </div> 
+                <div className="icons">
+                  <img src={Linkedin} alt="LinkedIn" />
+                  <img src={Email} alt="Email" />
+                </div> 
               </div>
               <p className="description">
                 Established in 1971 with the acquisition of an IBM System/370 one of the most powerful computers in India...
@@ -45,9 +49,11 @@ export default function FacultyPage() {
           {facultyData.map((faculty, index) => (
             <div className="faculty-card" key={index}>
               <img src={faculty.image} alt="Faculty" className="faculty-image" />
-              <div className="faculty-info">
-                <h4 className="faculty-name">{faculty.name}</h4>
-                <p className="designation">{faculty.designation}</p>
+              <div className="faculty-info ">
+                <div className='name-designation'> 
+                <h4 className="faculty-name">{faculty.name}</h4> 
+                <p className="faculty-designation">{faculty.designation}</p>
+                </div>
                 <div className="icons">
                   {faculty.hasLinkedIn && <img src={Linkedin} alt="LinkedIn" />}
                   {faculty.hasEmail && <img src={Email} alt="Email" />}
