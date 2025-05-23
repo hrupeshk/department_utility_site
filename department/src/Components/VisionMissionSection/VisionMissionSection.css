@@ -1,0 +1,29 @@
+.vision-mission-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+.vision-mission-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.vision-block,
+.mission-block {
+  margin-bottom: 40px;
+}
+
+.vision-title,
+.mission-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.vision-text,
+.mission-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+}

@@ -1,0 +1,112 @@
+.topbar{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+.leftpart{
+    width: 60%;
+    display: flex;
+    background-color:#C00404;
+    
+}
+
+ul{
+    flex: 1;
+    list-style: none;
+    margin-left: 25%; 
+}
+
+ul li{
+    display: inline-block;
+    font-size: 13px;
+    margin: 8px 10px;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.separator {
+    padding: 0 5px;
+    color: white;
+}
+
+.rightpart{
+    width: 40%;
+    background-color:black;
+    
+    
+}
+
+.rightcontent{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+
+}
+
+.modechange span, .fontchange span{
+    margin-right: 10px;
+
+}
+
+.modechange span:last-child , .fontchange span:last-child{
+    margin-right: 0px;
+}
+.modechange , .fontchange , .languagechange {
+    margin-top: 6px;
+}
+
+.modechange a, .fontchange a, .languagechange a{
+    text-decoration: none;
+    font-size: 13px;
+
+
+}
+
+.fontchange a, .languagechange a{
+    color: white;
+}
+
+
+
+.darkmode{
+    border: 1px solid white;
+    
+  
+}
+
+.darkmode a{
+    color: white;
+    padding:  0px 3px;
+    text-decoration: solid;
+}
+
+.lightmode{
+    border: 1px solid white;
+    background-color: white;
+    
+    
+  
+}
+
+.lightmode a{
+    color: black;
+    padding:  0px 4px;
+    text-decoration: solid;
+}
+
+
+.fontdecrease a{
+    font-size: 11px;
+}
+
+.fontincrease a{
+    font-size: 15px;
+}
